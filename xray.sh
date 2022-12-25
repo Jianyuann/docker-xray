@@ -1,3 +1,4 @@
+#!/bin/sh
 
 if [ ! -f UUID ]; then
 	cat /proc/sys/kernel/random/uuid > UUID
@@ -14,4 +15,3 @@ echo starting with UUID:$UUID
 echo listening at 0.0.0.0:$PORT
 
 exec "$@"
-
