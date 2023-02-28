@@ -1,7 +1,7 @@
 x-uffizzi:
   ingress:
     service: v2ray-for-uffizzi.com
-    port: 80
+    port: 8888
 services:
   v2ray-for-uffizzi.com:
     build: .
