@@ -11,3 +11,4 @@ ENV TZ=Asia/Shanghai
 WORKDIR /etc/xray
 ENTRYPOINT ["/xray.sh"]
 CMD ["xray", "-config=/etc/xray/config.json"]
+USER 10001
